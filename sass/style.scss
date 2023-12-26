@@ -1,0 +1,291 @@
+/*index y quienes somos*/
+
+/*header*/
+
+.container-fluid{
+    display: flex;
+    height: 80px;
+    background-color:rgb(229, 111, 68) ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+}
+
+
+
+.carousel-inner {
+    height: 100dvh;
+    width: 100dvh;
+}
+
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 40;
+    width: 50px;
+    height: 50px;
+}
+
+
+a{
+    text-decoration:double;
+    color: black
+    padding-right: 200px;
+    font-weight: 500;
+    align-items: center;
+    text-decoration-style: solid;
+}
+
+.Main {
+    background-color:rgb(201, 155, 100);
+    text-decoration: double;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-weight: 600;
+    align-items: center;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+#Titulo{
+    color:brown
+    
+}
+
+.texto{
+    color:black
+    
+}
+
+body{
+    background-color:beige
+    
+}
+h1{
+    border: solid 1px black;
+    color: black;
+    margin-top: 50px;
+    background-color: rgb(141, 109, 41);
+    padding: 15px 10px 15px 10px
+}
+.margen{
+    height: 100px;
+    width: 200px;
+}
+
+.Parrafo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    font-style:normal
+}
+
+.row {
+    background-color: rgb(114, 71, 10);
+    
+}
+
+.footer {
+    padding: 1em 0;
+    text-align: center;
+    margin-top: auto;
+    background-color: coral
+    position: absolute;
+    bottom: 0;
+}
+
+
+/*contacto*/
+header{
+    display: flex;
+    height: 70px;
+    width: 100px;
+    background-color:coral ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 20;
+}
+
+.logo img{
+    width: 150px;
+    height: 100px;
+    margin-left: -30px;
+
+}
+
+.maincontacto {
+    background-color: antiquewhite;
+}
+
+.parrafos {
+    background-color: #a7f5a5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.parrafos2 {
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.parrafo3 {
+    background-color: aqua;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contactoimagen2  {
+    width: 100dvh;
+    height: 100dvh;
+}
+
+.contactoparrafo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+
+
+
+
+/*imagenes*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px;
+    grid-gap: 20px;
+    padding: 100px 0;
+}
+
+.box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width:991px) {
+    .container {
+        padding: 30px;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box:nth-child(1) {
+        grid-column-start: span 1;
+    }
+    .box:nth-child(4) {
+        grid-column-start: span 1;
+}
+
+
+
+
+/*Comentarios*/
+
+form {
+    padding: 50px 55px;
+    box-shadow: 0 0 20px; rgba (0, 0, 0, 0.2)
+    border-radius: 20px;
+    text-align: center;
+    width:340px;
+    
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+
+h2 {
+    color: #283629;
+    font-size: 45px;
+}
+
+label {
+    color: #283629;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(228, 188, 137);
+    border: 5px solid #eaf8ea;
+    color: #283629;
+    outline: none;
+}
+
+input::placeholder, textarea {
+    color: #020202;
+}
+
+.form-txt {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.form-txt a {
+    color: #76b28e;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 16px;
+    color: #ffffff;
+    border: 0;
+    border-radius: 25px;
+    background-color: #51d94c;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0,4);
+    cursor: pointer;
+}
+
+body {
+    padding: 30px;
+}
+
+form {
+    padding: 50px 30px;
+}
+
+input {
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
