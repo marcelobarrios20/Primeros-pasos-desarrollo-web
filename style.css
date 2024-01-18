@@ -28,13 +28,29 @@
 }
 
 
-
+a{
+    text-decoration:double;
+    color: black;
+    padding-right: 200px;
+    font-weight: 500;
+    align-items: center;
+    text-decoration-style: solid;
+}
 
 .Main {
     background-color:rgb(201, 155, 100);
     text-decoration: double;
 }
 
+
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    font-weight: 600;
+    align-items: center;
+}
 
 nav a{
     font-weight: 600;
@@ -44,7 +60,7 @@ nav a{
 #Titulo{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 50px;
-    color:rgb(108, 115, 248);
+    color:rgb(55, 62, 187);
     
 }
 
@@ -113,7 +129,7 @@ h1{
 
 
 /*contacto*/
-.header{
+header{
     display: flex;
     height: 70px;
     width: 100px;
@@ -166,16 +182,6 @@ h1{
     height: 300px;
 }
 
-.contactoinfo {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-    background: #F5F3F4;
-}
-
-
 
 
 
@@ -202,7 +208,7 @@ h1{
     object-fit: cover;
 }
 
-@media (max-width:991px) {
+@media (max-width:991px)
     .container {
         padding: 30px;
         grid-template-columns: repeat(1, 1fr);
@@ -213,19 +219,19 @@ h1{
     .box:nth-child(4) {
         grid-column-start: span 1;
 }
-}
 
 
 
 
 /*Comentarios*/
 
-.form {
+form {
     padding: 50px 55px;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px; rgba (0, 0, 0, 0.2);
     border-radius: 20px;
     text-align: center;
-    width:540px;
+    width:340px;
+    
 }
 
 .input-group {
@@ -237,7 +243,7 @@ h1{
 
 h2 {
     color: #283629;
-    font-size: 55px;
+    font-size: 45px;
 }
 
 label {
@@ -281,7 +287,7 @@ input::placeholder, textarea {
     border: 0;
     border-radius: 25px;
     background-color: #51d94c;
-    box-shadow: 0 0 20px;
+    box-shadow: 0 0 20px rgba(25, 254, 0, 0,4);
     cursor: pointer;
 }
 

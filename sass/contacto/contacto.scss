@@ -1,4 +1,4 @@
-header{
+.header{
     display: flex;
     height: 70px;
     width: 100px;
@@ -6,46 +6,56 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-  }
-  
-  .logo{
+}
+
+.logo{
     display: flex;
     align-items: center;
     margin-right: 20;
-  }
-  
-  .logo img{
+}
+
+.logo img{
     width: 150px;
     height: 100px;
     margin-left: -30px;
-  
-  }
-  
-  .maincontacto {
-    background-color: antiquewhite;
-  }
-  
-  .parrafos {
-    background-color: #a7f5a5;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .parrafos2 {
-    background-color: pink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-  }
-  
-  .parrafo3 {
-    background-color: aqua;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-  
-  .contactoimagen2  {
-    width: 100dvh;
-    height: 100dvh;
-  }
-  
-  .contactoparrafo {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: black;
-  }
+
+}
+
+.contactaconnosotros {
+    margin-bottom: 35px;
+    font-size: 100px;
+    color: #f5f0f0;
+    font-weight: 900;
+    line-height: 3em;
+}
+
+.banner{
+    position: relative;
+    min-height: 50vh;
+    margin-top: 80px;
+    padding: 0 20%;
+    background: #88bbd6;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: 2s;
+    animation: fondo 20s ease-in-out infinite;
+}
+
+.imagencontacto {
+    width: 300px;
+    height: 300px;
+}
+
+.contactoinfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: #F5F3F4;
+}
